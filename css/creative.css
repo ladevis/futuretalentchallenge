@@ -399,3 +399,8 @@ header.masthead p {
     color: #212529;
     background-color: #EC2242;
 }
+
+.s-font {
+  font-size: .8em;
+  color: #717171;
+}
