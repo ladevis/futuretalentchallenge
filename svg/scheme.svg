@@ -50,6 +50,12 @@
 	.st44{font-family:'Roboto-Regular';}
 	.st45{font-size:20px;}
 	.st46{font-size:18.6476px;}
+    #G-Meetup:hover .st29 { 
+    fill: #E7454A;;
+      }
+  #G-Meetup:hover .st33 { 
+    fill: #FFFFFF;;
+      }
 </style>
 <g>
 	<path class="st0" d="M504.296,699.466c0-24.892-20.185-45.077-45.074-45.077c-24.895,0-45.077,20.185-45.077,45.077
@@ -448,14 +454,15 @@
 			<text transform="matrix(1 0 0 1 67.2588 36.1893)"><tspan x="0" y="0" class="st42 st34 st37">ME</tspan><tspan x="49.298" y="0" class="st42 st34 st37">E</tspan><tspan x="68.951" y="0" class="st42 st34 st37">T</tspan></text>
 		</g>
 		<rect x="13.205" y="56.775" class="st43" width="178.618" height="51.122"/>
-		<text transform="matrix(1 0 0 1 13.2049 71.775)"><tspan x="0" y="0" class="st44 st45">21 September </tspan><tspan x="0" y="24" class="st44 st45">13.00 -19.00</tspan></text>
+		<a xlink:href="http://meetu.ps/c/41FFP/sZtn7/f" target="_blank"><text transform="matrix(1 0 0 1 13.2049 71.775)"><tspan x="0" y="0" class="st44 st45">21 September </tspan><tspan x="0" y="24" class="st44 st45">Friday 13.00–19.00</tspan></text>
+        </a>
 	</g>
 	<rect x="14.308" y="299.168" class="st43" width="178.618" height="51.122"/>
-	<text transform="matrix(1 0 0 1 14.3075 314.1674)" class="st44 st45">1-2 November</text>
+	<text transform="matrix(1 0 0 1 14.3075 314.1674)" class="st44 st45">1–2 November</text>
 	<rect x="13.205" y="491.141" class="st43" width="178.618" height="51.122"/>
-	<text transform="matrix(1 0 0 1 13.2049 506.1407)" class="st44 st45">28-30 November</text>
+	<text transform="matrix(1 0 0 1 13.2049 506.1407)" class="st44 st45">28–30 November</text>
 	<rect x="13.205" y="683.538" class="st43" width="178.618" height="48.561"/>
-	<text transform="matrix(1 0 0 1 13.2049 698.5376)" class="st44 st45">to be scheduled</text>
+	<text transform="matrix(1 0 0 1 13.2049 698.5376)" class="st44 st45">To Be Defined</text>
 </g>
 <g id="G-Living">
 	<path class="st29" d="M271.626,313.819c0-24.07-19.519-43.586-43.586-43.586c-24.07,0-43.586,19.516-43.586,43.586
@@ -468,9 +475,11 @@
 	<text transform="matrix(1 0 0 1 536.4434 509.9241)" class="st33 st34 st35">DEMAND</text>
 </g>
 <g id="G-Meetup">
-	<path class="st29" d="M496.556,64.821c0-24.067-19.519-43.586-43.589-43.586c-24.067,0-43.586,19.519-43.586,43.586
-		s19.519,43.586,43.586,43.586C477.036,108.407,496.556,88.888,496.556,64.821"/>
-	<text transform="matrix(1 0 0 1 416.418 72.0433)" class="st33 st31 st46">MEETUP</text>
+    <a xlink:href="http://meetu.ps/c/41FFP/sZtn7/f" target="_blank">
+      <path class="st29" d="M496.556,64.821c0-24.067-19.519-43.586-43.589-43.586c-24.067,0-43.586,19.519-43.586,43.586
+          s19.519,43.586,43.586,43.586C477.036,108.407,496.556,88.888,496.556,64.821"/>
+      <text transform="matrix(1 0 0 1 416.418 72.0433)" class="st33 st31 st46">MEETUP</text>
+  </a>
 </g>
 <g id="G-Supply">
 	<path class="st29" d="M385.11,505.107c0-24.067-19.519-43.586-43.586-43.586c-24.07,0-43.586,19.519-43.586,43.586

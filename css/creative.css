@@ -87,7 +87,6 @@ img::-moz-selection {
 }
 
 .svg-fluid {
-    max-width: 60%;
     height: auto;
     display: block;
     margin-left: auto;
@@ -122,9 +121,16 @@ img::-moz-selection {
   color: #212529;
 }
 
+
+
 #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
   color: #ffb600;
+}
+
+#mainNav .navbar-nav > li.nav-item > a.nav-link-e:hover,
+#mainNav .navbar-nav > li.nav-item > a.nav-link-e:focus:hover {
+  color: #0CA6AD  !important;
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active,
@@ -156,9 +162,16 @@ img::-moz-selection {
   #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
     color: rgba(255, 255, 255, 0.7);
   }
+  #mainNav .navbar-nav > li.nav-item > a.nav-link-e,
+  #mainNav .navbar-nav > li.nav-item > a.nav-link-e:focus {
+    color: #0ca6adb3;
+  }
   #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
   #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
     color: #fff;
+  }
+  #mainNav .navbar-nav > li.nav-item > a.nav-link-e:focus:hover {
+    color: #0CA6AD;
   }
   #mainNav.navbar-shrink {
     border-bottom: 1px solid rgba(33, 37, 41, 0.1);
@@ -174,6 +187,10 @@ img::-moz-selection {
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
     color: #212529;
   }
+ 
+  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link-e:focus {
+    color: #0CA6AD;
+  }
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
     color: #ffb600;
@@ -183,14 +200,23 @@ img::-moz-selection {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: url("../img/tringles.png");
   color: #212529;
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  
+ 
 }
+
+ .h-pict {
+    background-image: url('../img/tringles.png');
+  }
+  
+  .e-pict {
+    background-image: url('../img/event.png');
+  }
 
 header.masthead hr {
   margin-top: 30px;
@@ -328,4 +354,35 @@ header.masthead p {
 
 .yellow {
   color: #fab513;
+}
+
+.ab-desc {
+      font-size: 1.1rem;
+          font-weight: 500;
+}
+
+.hr-lengt hr{
+  max-width: 100%;
+      border-top: 1px solid rgba(0,0,0,.1);
+}
+
+.t-bold {
+  font-weight: bold;
+}
+
+.pad-des {
+  padding-top: 8rem;
+}
+
+.t-f-fam {
+  font-family: "Roboto";
+}
+
+.ft-logo {
+  max-height: 100px;
+}
+
+.cel-line {
+      border-color: #0ca6adb3;
+  
 }
