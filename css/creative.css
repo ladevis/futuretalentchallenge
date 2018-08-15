@@ -386,3 +386,16 @@ header.masthead p {
       border-color: #0ca6adb3;
   
 }
+
+.btn-red {
+
+    color: #FFFF;
+    background-color: #EC2242;
+    text-align: center!important;
+}
+
+.btn-red:hover {
+
+    color: #212529;
+    background-color: #EC2242;
+}
