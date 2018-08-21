@@ -3,6 +3,8 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 751.359 765.776" style="enable-background:new 0 0 751.359 765.776;" xml:space="preserve">
 <style type="text/css">
+  
+  @import url('https://fonts.googleapis.com/css?family=Roboto');
 	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#F4F3EA;}
 	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#F0EFE5;}
 	.st2{fill-rule:evenodd;clip-rule:evenodd;fill:#EBEAE0;}
@@ -34,10 +36,10 @@
 	.st28{fill-rule:evenodd;clip-rule:evenodd;fill:#31B062;}
 	.st29{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
 	.st30{fill:#EE342F;}
-	.st31{font-family:'Roboto-Bold';}
+	.st31{font-family: "Roboto"; font-weight: 500;}
 	.st32{font-size:21.9775px;}
 	.st33{fill:#231F20;}
-	.st34{font-family:'Roboto-Medium';}
+	.st34{font-family: "Roboto"; font-weight: 700;}
 	.st35{font-size:15.9836px;}
 	.st36{fill:#2C2F30;}
 	.st37{font-size:34.213px;}
@@ -47,7 +49,7 @@
 	.st41{fill:#F26922;}
 	.st42{fill:#EC2242;}
 	.st43{fill:none;}
-	.st44{font-family:'Roboto-Regular';}
+	.st44{font-family: "Roboto"; font-weight: 400;}
 	.st45{font-size:20px;}
 	.st46{font-size:18.6476px;}
     #G-Meetup:hover .st29 { 
@@ -458,7 +460,7 @@
         </a>
 	</g>
 	<rect x="14.308" y="299.168" class="st43" width="178.618" height="51.122"/>
-	<text transform="matrix(1 0 0 1 14.3075 314.1674)" class="st44 st45">1–2 November</text>
+	<text transform="matrix(1 0 0 1 14.3075 314.1674)" class="st44 st45">2-3 November</text>
 	<rect x="13.205" y="491.141" class="st43" width="178.618" height="51.122"/>
 	<text transform="matrix(1 0 0 1 13.2049 506.1407)" class="st44 st45">28–30 November</text>
 	<rect x="13.205" y="683.538" class="st43" width="178.618" height="48.561"/>

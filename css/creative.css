@@ -218,6 +218,12 @@ header.masthead {
     background-image: url('../img/event.jpg');
   }
 
+.w-pict {
+  
+  background-image: url('../img/warehousefacade_v.jpg');
+  opacity: 0.5;
+}
+
 header.masthead hr {
   margin-top: 30px;
   margin-bottom: 30px;
@@ -382,6 +388,10 @@ header.masthead p {
   max-height: 100px;
 }
 
+.ft-logo-a {
+  max-height: 100px;
+}
+
 .cel-line {
       border-color: #0ca6adb3;
   
@@ -404,3 +414,19 @@ header.masthead p {
   font-size: .8em;
   color: #717171;
 }
+
+.ft-logo-mobile {
+  display: none;
+  max-height: 100px;
+}
+
+@media (max-width: 991.98px) {
+  .ft-logo {
+    display: none;
+  }
+  .ft-logo-mobile {
+    display: block !important;
+    
+  }
+
+
