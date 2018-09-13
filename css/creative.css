@@ -237,6 +237,12 @@ header.masthead p {
   font-weight: 300;
 }
 
+.p-left li {
+    margin-left: 20px;
+  
+} 
+
+
 @media (min-width: 768px) {
   header.masthead p {
     font-size: 1.15rem;
