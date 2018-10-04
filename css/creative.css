@@ -18,6 +18,10 @@ hr.light {
   border-color: #fff;
 }
 
+hr.green-line {
+      border-color: #ffffff !important;
+}
+
 a {
   color: #ffb600;
   -webkit-transition: all 0.2s;
@@ -79,6 +83,14 @@ img::selection {
 img::-moz-selection {
   color: #fff;
   background: transparent;
+}
+
+img.im-past {
+    filter: grayscale(100%);
+    padding-left: 40px;
+    padding-bottom: 40px;
+    padding-top: 30px;
+    width:100%;
 }
 
 .icon a {
@@ -241,6 +253,24 @@ header.masthead p {
     margin-left: 20px;
   
 } 
+
+.middle-al {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.gray-icon {
+   margin-top: auto;
+   margin-bottom: auto;
+  padding-left: .5em;
+  color: #0CA6AD;
+}
+
+.gray-icon:hover {
+  color: #212529;
+}
+
+
 
 
 @media (min-width: 768px) {
@@ -416,6 +446,21 @@ header.masthead p {
     background-color: #EC2242;
 }
 
+.btn-green {
+
+    color: #FFFF;
+    background-color: #0CA6AD;
+    text-align: center!important;
+
+}
+
+.btn-green:hover {
+
+    color: #212529;
+}
+
+
+
 .s-font {
   font-size: .8em;
   color: #717171;
@@ -434,5 +479,15 @@ header.masthead p {
     display: block !important;
     
   }
+ 
+  
+}
+
+
+
+ 
+
+
+
 
 
