@@ -103,6 +103,10 @@ img.im-past {
     padding-right: 5px;
 }
 
+.iconb a {
+    color: rgba(33, 37, 41, 0.7);
+}
+
 .svg-fluid {
     height: auto;
     display: block;
@@ -194,6 +198,15 @@ img.im-past {
     border-bottom: 1px solid rgba(33, 37, 41, 0.1);
     background-color: #fff;
   }
+  
+    #mainNav.navbar-shrink .ft-logo {
+    display: none;
+  }
+  
+    #mainNav.navbar-shrink .ft-logo-mobile {
+    display: block;
+  }
+  
   #mainNav.navbar-shrink .navbar-brand {
     color: #212529;
   }
@@ -551,7 +564,7 @@ display: block;
     top: 12px;
 }
 
-.icon {
+.speaker .icon {
     position: absolute;
     right: 12px;
     top: 12px;
