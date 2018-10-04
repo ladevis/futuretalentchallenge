@@ -63,6 +63,11 @@ section {
   margin-top: 0;
 }
 
+section .no-bott-pad {
+   padding-bottom: 0px;
+  padding-top: 0px;
+}
+
 ::-moz-selection {
   color: #fff;
   background: #212529;
@@ -262,14 +267,17 @@ header.masthead p {
 .gray-icon {
    margin-top: auto;
    margin-bottom: auto;
-  padding-left: .5em;
+  padding-left: 15px;
   color: #0CA6AD;
 }
 
-.gray-icon:hover {
+.row .gray-icon:hover {
   color: #212529;
 }
 
+.mult-b .gray-icon:hover {
+  color: #FFFF;
+}
 
 
 
@@ -491,3 +499,64 @@ header.masthead p {
 
 
 
+
+
+
+.mult-b {
+    display: flex;
+    width: fit-content;
+    flex-wrap: wrap;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.speakers-list {
+      padding: 0 2px;
+      margin: 0 !important;
+      display: flex;
+      flex-flow: row wrap;
+      list-style: none;
+}
+
+.speakers-list .speaker {
+    position: relative;
+    box-sizing: border-box;
+}
+
+.speakers-list .speaker-photo {
+  position: relative;
+  overflow: hidden;
+}
+
+img.lazy {
+display: block;
+    height: auto;
+    max-width: 100%;
+    
+}
+
+
+  .speakers-list .speaker-text {
+    bottom: 0;
+    padding: 12px 12px 10px 1px;
+    width: 100%;
+    color:white;
+}
+
+.speaker-twitter {
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    right: 12px;
+    top: 12px;
+}
+
+.icon {
+    position: absolute;
+    right: 12px;
+    top: 12px;
+}
+
+.bw-p {
+  filter: grayscale(100%);
+}
